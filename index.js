@@ -5,7 +5,7 @@ function timeShow(){
     var minutes = newDate.getMinutes(); 
     var seconds = newDate.getSeconds(); 
     var id = "AM";
-    if(hours == i){
+    if(hours === i){
         hours = 12;
     }
     if(hours > 12){
